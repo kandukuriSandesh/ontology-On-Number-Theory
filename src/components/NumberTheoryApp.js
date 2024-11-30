@@ -116,7 +116,7 @@ const NumberTheoryApp = () => {
         /> <br/>
         <button onClick={checkNumberType} className="check-btn" >Check Number Type</button>
         </div>
-      <div>
+      <div className="result-div" >
         {results.map((result, index) => (
           <p key={index}>{result}</p>
         ))}
